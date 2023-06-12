@@ -1,3 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 body{
-    b
+    background-color: bisque;
+}
+.container{
+    max-width:1080px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+li{
+    flex-basis: calc(( 100% / 3 ) - 20px);
+    margin: 10px;
+    background-color: #fff;
 }
